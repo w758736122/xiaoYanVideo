@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A AWESOME WEB !</title>
+    <link rel="stylesheet" href="{% static 'css/semantic.css' %}">
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/semantic.js' %}"></script>
+    <script src="{% static 'js/exporting.js' %}"></script>
+    <script src="{% static 'js/highcharts-more.js' %}"></script>
+    <script src="{% static 'js/highcharts.js' %}"></script>
+    </head>
+  <body>
+      <div class="ui  sidebar  inverted vertical menu">
+        <div class="item">
+          <img src="{% static 'images/logo2.png' %}">
+        </div>
+        <a class="header item">好吃</a>
+        <a class="header item">好玩</a>
+        <a class="header item">好看</a>
+      </div>
+      <div class="pusher">
+        <div class="ui menu"  >
+          <div class="header item" id="menu">
+            菜单
+            <i class="content  icon"></i>
+          </div>
+          <a class="item">好吃的 </a>
+          <a class="item">好玩的</a>
+          <a class="item">好看的</a>
+          <a class="item">更多</a>
+        </div>
+        <div class="ui   grid">
+              <div class="row" style="background: #f0f3f5">
+               <div class="three wide column"></div>
+               <div class="eight wide column">
+                       <form method="get" action="www.baidu.com/s?wd=" target="_blank" name="form">
+                         <div class="ui fluid action input">
+                           <h1  style="font-weight: bolder;font-family: '微软雅黑';color: #258dcd;margin: 3px 0px 5px 20px" >小艳电影&nbsp&nbsp&nbsp&nbsp</h1>
+                           <input type="text" placeholder="电影、影人、影院、电视剧" id="search">
+                           <bottom class="ui button">搜索</bottom>
+                         </div>
+                        </form>
+                   <div class="ui divider"></div>
+                   <div>
+                       <a style="font-size: 13px" href="https://movie.douban.com/nowplaying/shanghai/" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 影讯&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="https://sh.nuomi.com/movie"  target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 购票&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="https://movie.douban.com/tag/"  target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="https://movie.douban.com/review/best/" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;影评&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="https://movie.douban.com/explore" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选电影&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="https://movie.douban.com/tv/" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电视剧&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="https://movie.douban.com/chart" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;排行榜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="http://music.baidu.com/tag/电影" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电影音乐&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="https://movie.douban.com/standbyme/share" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;观影报告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                       <a style="font-size: 13px" href="https://movie.douban.com/annual2015/" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年度榜单&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                   </div>
+
+               <div class="five wide column"></div>
+              </div>
+              </div>
+            <div class="row"></div>
+            <div class="row">
+            <div class="three wide column">
+              <img>
+            </div>
+            <div class="eight wide column">
+              <h2 style="font-size: 16px">正在上映&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <a target="_blank" style="font-size:12px;font-weight:normal"  href="https://movie.douban.com/later/shanghai/">即将上映》</a>
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+{% if arti.has_previous %}
+                  <a class="active item" href="?page={{ arti.previous_page_number }}"  >
+{% else %}
+                  <a class="active item" href="?page={{ arti.paginator.num_pages }}">
+{% endif %}
+                  <i class="angle double left icon"></i>
+                  </a>
+                  {{ arti.number }}/{{ arti.paginator.num_pages }}
+{% if arti.has_next %}
+                  <a class="item" href="?page={{ arti.next_page_number }}">
+{% else %}
+                  <a class="item" href="?page=1">
+
+{% endif %}
+
+                   <i class="angle double right icon"></i>
+                  </a>
+              </h2>
+                <div class="ui divider"></div>
+                <div class="ui four column grid">
+ {% for i  in arti %}
+
+                   <div class="column">
+                      <div class="ui medium rounded image" style="max-width:138px ;max-height: 200px "align="center">
+                          <img style="margin:5px 0px 0px 39px  " src={{ i.img }}>
+                          </div>
+                       <br>
+                       <br>
+                        <p style="text-align:center">{{ i.titles }}</p>
+
+                        <a  target="_blank" class=" ui fluid blue small button" href="{{ i.ticket }}" >选座购票</a>
+                   </div>
+ {% endfor %}
+
+
+                   <div class="row"></div>
+                   <div>
+                      <h2>选电影&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <a style="font-size:14px;font-weight:normal">更多》</a>
+                            </h2>
+                    <div class=" ui divider"></div>
+                   </div>
+                   <div class="five wide column"></div>
+                </div>
+                <div class="row">
+                    <div class="three wide column">
+                      <img>
+                    </div>
+                    <div class="eight wide column">
+                      <div class="ui link cards">
+                          <div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">
+                              <div class="image">
+                                <img src="{% static 'images/trim.jpg' %}">
+                              </div>
+                              <div class="content">
+                                <div class="header">My Neighbor Totoro</div>
+                                <div class="description">Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by magical spirits. </div>
+                              </div>
+                              <div class="ui two bottom attached buttons">
+                                <div class="ui button"><i class="add icon"></i> Queue </div>
+                                <div class="ui primary button"><i class="play icon"></i> Watch </div>
+                              </div>
+                          </div>
+                          <div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">
+                              <div class="image">
+                                <img src="{% static 'images/duola.jpg' %}">
+                              </div>
+                              <div class="content">
+                                <div class="header">My Neighbor Totoro</div>
+                                <div class="description">Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by magical spirits. </div>
+                              </div>
+                              <div class="ui two bottom attached buttons">
+                                <div class="ui button"><i class="add icon"></i> Queue </div>
+                                <div class="ui primary button"><i class="play icon"></i> Watch <a src="{% static 'video/哆啦A梦2014.mkv' %}"></a></div>
+                              </div>
+                          </div>
+                          <div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">
+                              <div class="image">
+                                <img src="{% static 'images/atong.jpg' %}">
+                              </div>
+                              <div class="content">
+                                <div class="header">My Neighbor Totoro</div>
+                                <div class="description">Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by magical spirits. </div>
+                              </div>
+                              <div class="ui two bottom attached buttons">
+                                <div class="ui button"><i class="add icon"></i> Queue </div>
+                                <div class="ui primary button"><i class="play icon"></i> Watch </div>
+                              </div>
+                          </div>
+                          </div>
+                        <div class="ui divider"></div>
+                          </div>
+                    </div>
+            </div>
+            <div class="five wide column">
+              <img>
+            </div>
+          </div>
+
+
+               <div class="ui pagination menu">
+               {% if arti.has_previous %}
+                   <a class="active item" href="?page={{ arti.previous_page_number }}"> < </a>
+               {% endif %}
+            <div class="disabled item">
+              page {{ arti.number }}of {{ arti.paginator.num_pages }}
+            </div>
+           {% if arti.has_next %}
+            <a class="item" href="?page={{ arti.next_page_number }}"> ></a>
+           {% endif %}
+          </div>
+  <script>
+    $('#menu').click(function () {
+      $('.ui.sidebar.inverted.vertical.menu').sidebar('toggle');
+    });
+  </script>
+</body>
+</html>
+/*inverted 反色 vertical垂直  #menu 找id为menu的 $找class*/
+
